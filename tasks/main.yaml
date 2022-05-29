@@ -1,4 +1,4 @@
-- name: Create directories
+- name: Create directory
   ansible.builtin.shell: |
     mkdir -p ~/.config/nano
   args: {warn: false}
